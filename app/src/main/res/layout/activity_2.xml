@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent2"
+    tools:context=".Activity2">
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="119dp"
+        android:layout_height="66dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="onClick2"
+        android:text="Я"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="119dp"
+        android:layout_height="66dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="onClick2"
+        android:text="Питание"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button11"
+        app:layout_constraintStart_toEndOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/sost"
+        android:layout_width="413dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/colorPrimary"
+        android:onClick="onClick2"
+        android:text="Составить самому"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rok" />
+
+    <Button
+        android:id="@+id/rok"
+        android:layout_width="413dp"
+        android:layout_height="110dp"
+        android:background="@color/colorAccent4"
+        android:onClick="onClick2"
+        android:text="Руки"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toTopOf="@+id/sost"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/press" />
+
+    <Button
+        android:id="@+id/press"
+        android:layout_width="413dp"
+        android:layout_height="110dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onClick2"
+        android:text="Пресс"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toTopOf="@+id/rok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yag" />
+
+    <Button
+        android:id="@+id/yag"
+        android:layout_width="413dp"
+        android:layout_height="110dp"
+        android:background="@color/colorAccent5"
+        android:onClick="onClick2"
+        android:text="Ягодицы"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toTopOf="@+id/press"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vt" />
+
+    <Button
+        android:id="@+id/vt"
+        android:layout_width="413dp"
+        android:layout_height="110dp"
+        android:background="@color/colorAccent"
+        android:onClick="onClick2"
+        android:text="Всё тело"
+        android:textColor="@android:color/background_light"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/yag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="119dp"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Тренировки"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button10"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="4dp"
+        android:text="Домашние тренировки"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/vt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">KP</string>
+    <string-array name="pol">
+        <item>Выбрать...</item>
+        <item>Ж</item>
+        <item>М</item>
+    </string-array>
+    <string-array name="coeff_activ">
+        <item> </item>
+        <item>Физ. нагрузка отсутствует(минимальная)</item>
+        <item>Тренировки ср. тяжести 3 раза в неделю</item>
+        <item>Тренировки ср. тяжести 5 раз в неделю</item>
+        <item>Интенсивные тренировки 5 раз в неделю</item>
+        <item>Тренировки каждый день</item>
+        <item>Интенс. трен. каждый день/2 раза в день</item>
+        <item>Ежедневная физ. нагрузка + физ. работа</item>
+    </string-array>
+    <string-array name="num_tren">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="press1">
+        <item>Скручивания       \n10 раз  4 подходов</item>
+        <item>Велосипед         \n10 раз  2 подхода</item>
+        <item>Ножницы           \n20 раз  3 подхода</item>
+        <item>Планка            \n30 с    3 подхода</item>
+        <item>Насос             \n20 с    3 подхода</item>
+    </string-array>
+    <string-array name="press2">
+        <item>Скручивания       \n10 раз  4 подхода</item>
+        <item>Насос             \n20 с    3 подхода</item>
+        <item>Велосипед         \n10 раз  2 подхода</item>
+        <item>Ножницы           \n20 раз  3 подхода</item>
+        <item>Подъем под 45     \n30 с    3 подхода</item>
+    </string-array>
+    <string-array name="press3">
+        <item>Скручивания \n10 раз  4 подхода</item>
+        <item>Велосипед         \n10 раз  2 подхода</item>
+        <item>Ножницы           \n20 раз  3 подхода</item>
+        <item>Планка            \n35 с    3 подхода</item>
+        <item>Насос             \n25 с    3 подхода</item>
+    </string-array>
+    <string-array name="press4">
+        <item>Скручивания       \n10 раз  4 подхода</item>
+        <item>Велосипед         \n10 раз  2 подхода</item>
+        <item>Ножницы           \n20 раз  3 подхода</item>
+        <item>Планка            \n50 с    3 подхода</item>
+        <item>Насос             \n40 с    3 подхода</item>
+    </string-array>
+    <string-array name="press5">
+        <item>Скручивания       \n10 раз  4 подхода</item>
+        <item>Велосипед         \n10 раз  2 подхода</item>
+        <item>Ножницы           \n20 раз  3 подхода</item>
+        <item>Планка            \n30 с    3 подхода</item>
+        <item>Насос             \n20 с    3 подхода</item>
+    </string-array>
+    <string-array name="press6">
+        <item>Скручивания       \n10 раз  4 подхода</item>
+        <item>Велосипед         \n10 раз  5 подходов</item>
+        <item>Ножницы           \n20 раз  3 подхода</item>
+        <item>Планка            \n30 с    3 подхода</item>
+        <item>Насос             \n20 с    3 подхода</item>
+    </string-array>
+
+    <string-array name="body1">
+        <item>Отжимания         \n10 раз  4 подхода</item>
+        <item>Приседания        \n15 раз  5 подходов</item>
+        <item>Ягодичный мостик  \n25 раз  3 подхода</item>
+        <item>Планка            \n30 с    3 подхода</item>
+        <item>Бег, колени вверх \n30 с    3 подхода</item>
+    </string-array>
+    <string-array name="body2">
+        <item>Приседания        \n15 раз  5 подходов</item>
+        <item>Ягодичный мостик  \n25 раз  3 подхода</item>
+        <item>Прыжки в стороны  \n30 с    2 подхода</item>
+        <item>Захлест голени    \n30 с    2 подхода</item>
+        <item>Велосипед         \n25 раз  4 подхода</item>
+    </string-array>
+    <string-array name="body3">
+        <item>Бег, колени вверх \n30 с    3 подхода</item>
+        <item>Прыжки в стороны  \n30 с    2 подхода</item>
+        <item>Захлест голени    \n30 с    2 подхода</item>
+        <item>Боковая планка    \n30 с    3 подхода</item>
+        <item>Велосипед         \n25 раз  4 подхода</item>
+    </string-array>
+    <string-array name="body4">
+        <item>Отжимания         \n10 раз  4 подхода</item>
+        <item>Ягодичный мостик  \n25 раз  3 подхода</item>
+        <item>Планка            \n30 с    3 подхода</item>
+        <item>Прыжки в стороны  \n30 с    2 подхода</item>
+        <item>Захлест голени    \n30 с    2 подхода</item>
+    </string-array>
+    <string-array name="body5">
+        <item>Отжимания         \n10 раз  4 подхода</item>
+        <item>Приседания        \n15 раз  5 подходов</item>
+        <item>Бег, колени вверх \n30 с    3 подхода</item>
+        <item>Прыжки в стороны  \n30 с    2 подхода</item>
+        <item>Захлест голени    \n30 с    2 подхода</item>
+        <item>Велосипед         \n25 раз  4 подхода</item>
+    </string-array>
+    <string-array name="body6">
+        <item>Ягодичный мостик  \n25 раз  3 подхода</item>
+        <item>Планка            \n30 с    3 подхода</item>
+        <item>Бег, колени вверх \n30 с    3 подхода</item>
+        <item>Прыжки в стороны  \n30 с    2 подхода</item>
+        <item>Боковая планка    \n30 с    3 подхода</item>
+        <item>Велосипед         \n25 раз  4 подхода</item>
+    </string-array>
+
+    <string-array name="yag1">
+        <item>Приседания               \n25 раз  4 подхода</item>
+        <item>Выпады назад             \n15 раз  4 подхода</item>
+        <item>Боковой выпад            \n10 раз  3 подхода</item>
+        <item>Мах ногой вверх          \n25 раз  3 подхода</item>
+        <item>Ягодичный мостик         \n30 раз  3 подхода</item>
+    </string-array>
+    <string-array name="yag2">
+        <item>Ягодичный мостик         \n30 раз  4 подхода</item>
+        <item>Захлест голени           \n30 с  4 подхода</item>
+        <item>Бег, колени вверх        \n25 с  5 подходов</item>
+        <item>Приседания               \n30 раз  4 подхода</item>
+        <item>Боковой выпад            \n15 раз  3 подхода</item>
+    </string-array>
+    <string-array name="yag3">
+        <item>Мах ногой вверх          \n25 раз  4 подхода</item>
+        <item>Отведение ноги назад     \n20 раз  4 подхода</item>
+        <item>Выпады назад             \n15 раз  5 подходов</item>
+        <item>Ягодичный мостик         \n40 раз  4 подхода</item>
+        <item>Приседания               \n20 раз  5 подходов</item>
+    </string-array>
+    <string-array name="yag4">
+        <item>Захлест голени           \n30 с  4 подхода</item>
+        <item>Бег, колени вверх        \n50 с  5 подходов</item>
+        <item>Мах ногой вверх          \n25 раз  5 подходов</item>
+        <item>Приседания                \n25 раз  5 подходов</item>
+        <item>Ягодичный мостик          \n25 раз  6 подходов</item>
+    </string-array>
+
+    <string-array name="hands1">
+        <item>Отжимания                \n10 раз  4 подхода</item>
+        <item>Жим гантелей             \n15 раз  5 подходов</item>
+        <item>Разведение в стороны     \n25 раз  3 подхода</item>
+        <item>Обратные отжимания       \n15 раз  3 подхода</item>
+        <item>Планка на руках          \n30 с    3 подхода</item>
+    </string-array>
+    <string-array name="hands2">
+        <item>Отжимания от стены       \n12 раз  4 подхода</item>
+        <item>Махи руками             \n20 с  4 подхода</item>
+        <item>Прыжки     \n40 с  3 подхода</item>
+        <item>Планка на руках          \n35 с    3 подхода</item>
+        <item>Бокс       \n30 с  3 подхода</item>
+    </string-array>
+    <string-array name="hands3">
+        <item>Планка на руках          \n40 с    3 подхода</item>
+        <item>Жим гантелей             \n25 раз  4 подхода</item>
+        <item>Отжимания                \n15 раз  3 подхода</item>
+        <item>Бокс       \n35 с  4 подхода</item>
+        <item>Разведение в стороны     \n25 раз  3 подхода</item>
+    </string-array>
+    <string-array name="hands4">
+        <item>Махи руками             \n35 с  4 подхода</item>
+        <item>Отжимания от стены       \n15 раз  4 подхода</item>
+        <item>Прыжки     \n50 с  4 подхода</item>
+        <item>Планка на руках          \n40 с    3 подхода</item>
+        <item>Отжимания                \n20 раз  4 подхода</item>
+    </string-array>
+    <string-array name="hands">
+        <item>Отжимания                \n20 раз  4 подхода</item>
+        <item>Жим гантелей             \n15 раз  5 подходов</item>
+        <item>Разведение в стороны     \n25 раз  3 подхода</item>
+        <item>Обратные отжимания       \n15 раз  3 подхода</item>
+        <item>Планка на руках          \n50 с    3 подхода</item>
+    </string-array>
+    <string-array name="yag">
+        <item>Приседания               \n25 раз  4 подхода</item>
+        <item>Выпады назад             \n15 раз  4 подхода</item>
+        <item>Боковой выпад            \n10 раз  3 подхода</item>
+        <item>Мах ногой вверх          \n25 раз  3 подхода</item>
+        <item>Ягодичный мостик         \n30 раз  3 подхода</item>
+    </string-array>
+</resources>
